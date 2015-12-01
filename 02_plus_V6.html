@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AXA</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet" />
+    <link href="css/jquery.selectBoxIt.css?t=1407421550" rel="stylesheet" />
+    <link href="css/styles.css?t=1407789974" rel="stylesheet" />
+    <link href="css/pages.css?t=1407789974" rel="stylesheet" />
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]--></head>
+<body class="yui3-skin-sam">
+<header class="visible-desktop">
+    <div class="twbs-container">
+        <a href="page1.html" class="axa-logo">AXA</a>
+        <div class="axa-call">
+            Llama ahora al<br /><span>01 800 911 84 71</span>
+        </div>
+    </div>
+</header>
+
+<header class="visible-phone visible-tablet" id="header-mobile">
+    <div class="twbs-container">
+                    <div class="col4">
+                <a href="" class="axa-volver pull-left">Volver</a>
+            </div>
+            <div class="col4 text-center">
+                <a href="page1.html" class="axa-logo">AXA</a>
+            </div>
+                <div class="col4 text-right">
+            <a href="" id="llamenme-trigger"><strong>Llámenme</strong></a>
+        </div>
+    </div>
+</header>
+
+
+<div id="llamenme" class="hide">
+    <form>
+        <input type="text" class="form-control input-block-level" placeholder="Mi teléfono" />
+        <button class="btn btn-default llamenme-btn">Llámenme</button>
+        <div class="clearfix"></div>
+        <p><strong>Te asesoramos al</strong><br />01 800 911 84 71</p>
+    </form>
+</div>
+
+
+<div class="twbs-container main">
+
+    <ul class="breadcrumb">
+        <li><a href="">Inicio </a> <span>></span> </li>
+        <li><a href="">Seguros Salud </a> <span>></span> </li>
+        <li><a href="">Seguro Médico Flex Plus </a> <span>></span> </li>
+        <li class="active">Cotizador</li> 
+    </ul>
+
+    <h1>Cotiza sólo tu seguro de Gastos Médicos Flex Plus</h1>
+
+    <div class="axa-steps-contratacion axa-gradient2 visible-desktop">
+        <ul>
+            <li class="active">1. Sobre el conductor</li>
+            <li>2. Tu seguro ideal</li>
+            <li>3. Obtén tu seguro</li>
+        </ul>
+         
+    </div>
+
+    <div class="axa-content-box">
+
+        <div class="visible-phone visible-tablet">
+            <h2>Necesitamos saber de tí</h2>
+        </div>
+        <div class="visible-desktop">
+            <h2>Ingresa datos solicitados para cotizar</h2> 
+        </div>
+        <div class="row-fluid">
+            <div class="span8">
+
+                <form class="form-horizontal axa-with-border axa-label-15" action="page4.html" method="post">
+                  <div class="control-group">
+                    <label class="control-label span4 visible-desktop">Tu nombre</label>
+                        <div class="span7">
+                            <input type="text" class="error form-control input-block-level" data-placeholder="Nombre"/>
+                            <i class="icn error"></i>
+                            <p class="error">Indica aquí tu nombre</p>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label span4 visible-desktop">Tu e-mail</label>
+                        <div class="span7">
+                            <input type="text" class="error form-control input-block-level" data-placeholder="Correo electrónico"/>
+                            <i class="icn error"></i>
+                            <p class="error">Indica aqu&iacute; tu e-mail ejemplo@email.com</p>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label span4 visible-desktop">Tu tel&eacute;fono</label>
+                        <div class="span7">
+                             <select id="select-telefono">
+                                <option value="Lada">044</option>
+                                <option value="Lada" selected>Lada</option>
+                                <option value="Lada">045</option>
+                                <option value="Lada">55</option> 
+                            </select>
+                            <input type="text" class="error form-control input-block-level input-telefono" data-placeholder="Teléfono"/>
+                            <i class="icn error"></i>
+                            <p class="error">Indica tu tel&eacute;fono completo </p>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label span4 visible-desktop"> Tu c&oacute;digo postal</label>
+                        <div class="span7">
+                            <input type="text" class="error form-control " data-placeholder="Codigo postal"/>
+                             <i class="icn error"></i>
+                            <a href="" class="buscar-cp"> <i class="icn pin"></i> Buscar C.P</a>
+                           
+                            <p class="error">Indica tu código postal</p>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label span4 visible-desktop">Tu fecha de nacimiento</label>
+                        <div class="span7">
+                            <input type="text" class="error form-control input-block-3" placeholder="DD"/>
+                            <input type="text" class="error form-control input-block-3" placeholder="MM"/>
+                            <input type="text" class="error form-control input-block-3" placeholder="AA"/>
+                            <i class="icn error"></i>
+                            <p class="error">Indica tu fecha de nacimiento completa</p>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label span4 visible-desktop">Tu sexo</label>
+                        <div class="span6">
+                            <label class="radio inline"><input type="radio" name="sexo" checked="checked"/> Hombre</label>
+                            <label class="radio inline"><input type="radio" name="sexo" /> Mujer</label>
+                        </div>
+                    </div> 
+
+
+                    <div class="control-group axa-autorizacion offset4 ">
+                        <p class="axa-aviso-privacidad visible-desktop"><strong>AXA Seguros, S.A. de C.V.</strong>, tratará tus datos de acuerdo al <a href="">Aviso de Privacidad</a>.</p>
+                        <label class="checkbox">
+                            <input type="checkbox">
+                            <span>Autorizo que AXA Seguros, S.A. de C. V., me contacte telefónicamente o por correo electrónico a través de un asesor o agente de seguros, para recibir más información de los productos que aquí se comercializan así como para darle seguimiento a mi cotización.</span>
+                        </label>
+                    </div>
+
+                    <div class="control-group axa-footer offset4 ">
+                        <button class="btn btn-primary btn-blue btn-lg btn-extra-lg">Continuar</button> 
+                        <a href="#" class="btn-volver" title="volver">Volver</a>  
+                        <p class="axa-margin-top-20"></p>
+                    </div>
+
+                </form>
+            </div>
+            <div class="span4 visible-desktop">
+                <div class="axa-te-llamamos">
+                    <h3>¿Te llamamos?</h3>
+                    <form>
+                        <div class="control-group">
+                            <input type="text" class="form-control input-block-level" placeholder="Mi número de teléfono" />
+                        </div>
+                        <button class="btn btn-default llamenme-btn">Llámenme</button>
+                    </form>
+                </div>
+
+                <div class="axa-chateamos axa-triangle2 axa-red-white-triangle2">
+                    <h3>Chatea con nosotros</h3>
+                    <div>
+                        Entre semana: 9:00h a 21:00h<br />
+                            Sábados hasta 15:30h<br />
+                            <span>Servicio de chat abierto</span>
+                    </div>
+                </div>
+
+                 
+            </div>
+        </div>
+    </div>
+
+</div><footer class="visible-desktop">
+    <div class="twbs-container">
+
+                    <div class="axa-gradient2 axa-gradient-box axa-red-white-triangle">
+                <div class="axa-call pull-left">
+                                            ¿Te asesoramos? ¡Llámanos!
+                                        <br /><span>01 800 911 84 71</span>
+                </div>
+                <div class="axa-chatear pull-right">
+                    ¿Quieres <span>chatear</span><br />con nosotros?
+                </div>
+            </div>
+        
+        <img src="img/logo2.png" class="pull-left" />
+        <img src="img/verisign-big.png" class="pull-right" />
+    </div>
+</footer>
+<footer class="visible-phone visible-tablet">
+        <div id="llamenme-footer" class="hide">
+        <form>
+            <input type="text" class="form-control input-block-level" placeholder="Mi teléfono" />
+            <button class="btn btn-default llamenme-btn">Llámenme</button>
+            <div class="clearfix"></div>
+            <p><strong>Te asesoramos al</strong><br />01 800 911 84 71</p>
+        </form>
+    </div>
+    <ul>
+        <li><a href="" id="llamenme-trigger-footer" class="mx-icon-llamamos">¿Te llamamos?</a></li>
+        <li><a href="">01 800 911 84 71</a></li>
+        <li><a href="" class="mx-icon-chat">¿Chateamos?</a></li>
+        <li class="axa-white"><img src="img/verisign.png" /></li>
+    </ul>
+</footer><!--<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>-->
+
+<script src="http://cdn.alloyui.com/2.5.0/aui/aui.js"></script>
+<script src="js/placeholders.yui3.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+<script src="js/jquery.selectBoxIt.min.js"></script>
+<script src="js/bootstrap-carousel.js"></script>
+<script src="js/bootstrap-transition.js"></script>
+<script src="js/bootstrap-tooltip.js"></script>
+<script src="js/scripts.js?t=1407769484"></script>
+<script src="js/funciones.js?t=1407769484"></script>
+</body>
+</html>
